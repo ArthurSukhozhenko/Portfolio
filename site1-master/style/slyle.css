@@ -1,0 +1,152 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.nav-span{
+    margin-right: 104px; 
+}
+.nav-link{
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: orange;
+}
+.header-flex{
+    display: flex; /*ставит в одну строку елементы*/
+    justify-content: space-between; /*распределяет растояние между контентом*/
+    align-items: center; /*выравнивает контент по линии*/
+    padding: 20px 0;
+}
+.footer-flex{
+    display: flex; /*ставит в одну строку елементы*/
+    justify-content: space-between; /*распределяет растояние между контентом*/
+    align-items: center; /*выравнивает контент по линии*/
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.app{
+    background-image:url("../img/bg1.png");
+    text-align: center;
+    color: white;
+    padding: 80px 0 160px;  
+    background-size: cover; /*параметры для бекграунда*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.app-text{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.app-title{
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    max-width: 800px;
+    margin: 10 auto;
+}
+.app-about{
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 50px;
+}
+.button{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    width: 236px;
+    height: 70px;
+    color: white;
+    border-radius: 30px;
+}
+.button-container>.button:first-of-type{ /*обращаеться к первому элементу в блоке*/
+    background:orangered;
+    border: none;
+    margin-right: 30px;
+}
+.button-container>.button:last-of-type{ /*обращаеться к последнему элементу в блоке*/
+    background:none;
+    border: 1px solid white;
+}
+.order{
+    background-image:url("../img/bg2.png");
+    text-align: center;
+    color: white;
+    padding: 80px 0 160px;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.order-text{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+}
+.order-text2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+}
+.centre-text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    opacity: 0.8;
+    margin: 30px;
+}
+.mobile-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.mobile-flex_color{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+    max-width: 560px;
+}
+.mobile-flex_title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    max-width: 560px;
+    margin: 10px;
+}
+.mobile-flex_text{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373; 
+    max-width: 560px;
+}
+.mobile-flex1{
+    display: flex;
+    margin-bottom: 85px;
+
+    
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 1200px;
+}
+/*end*/

@@ -1,0 +1,29 @@
+div, h1, main, section, header, footer, p{
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+}
+    /*блочные елементы занимают всегда 100% экрана (по умолчанию), становяться друг за другом вниз*/
+
+
+
+    a, span{
+        display: inline;
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    } 
+/*инлайновые элементы занимают только размер своего контента, становяться в линию*/
+
+/*инлайн блочные елементы комбинируют расположение инлайн и блок в одну строку*/
+button, img{
+display: inline-block;
+height: 30px;
+width: 30px;
+margin: 30px;
+padding: 30px;
+
+}
